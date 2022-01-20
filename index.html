@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coolor App</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="colors">
+      <div class="color">
+        <h2>hex</h2>
+        <div class="controls">
+          <button class="adjust">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"
+              />
+            </svg>
+          </button>
+          <button class="lock">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sliders">
+          <button class="close-adjustment">&times;</button>
+          <span>hue</span>
+          <input
+            type="range"
+            class="hue-input"
+            min="0"
+            max="360"
+            step="1"
+            data-hue="0"
+            name="hue"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            class="bright-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            data-bright="0"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            class="sat-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            data-sat="0"
+          />
+        </div>
+      </div>
+
+      <div class="color">
+        <h2>hex</h2>
+        <div class="controls">
+          <button class="adjust">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"
+              />
+            </svg>
+          </button>
+          <button class="lock">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sliders">
+          <button class="close-adjustment">&times;</button>
+          <span>hue</span>
+          <input
+            type="range"
+            class="hue-input"
+            min="0"
+            max="360"
+            step="1"
+            data-hue="1"
+            name="hue"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            class="bright-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            data-bright="1"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            class="sat-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            data-sat="1"
+          />
+        </div>
+      </div>
+      <div class="color">
+        <h2>hex</h2>
+        <div class="controls">
+          <button class="adjust">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"
+              />
+            </svg>
+          </button>
+          <button class="lock">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sliders">
+          <button class="close-adjustment">&times;</button>
+          <span>hue</span>
+          <input
+            type="range"
+            class="hue-input"
+            min="0"
+            max="360"
+            step="1"
+            data-hue="2"
+            name="hue"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            class="bright-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            data-bright="2"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            class="sat-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            data-sat="2"
+          />
+        </div>
+      </div>
+
+      <div class="color">
+        <h2>hex</h2>
+        <div class="controls">
+          <button class="adjust">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"
+              />
+            </svg>
+          </button>
+          <button class="lock">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sliders">
+          <button class="close-adjustment">&times;</button>
+          <span>hue</span>
+          <input
+            type="range"
+            class="hue-input"
+            min="0"
+            max="360"
+            step="1"
+            data-hue="3"
+            name="hue"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            class="bright-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            data-bright="3"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            class="sat-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            data-sat="3"
+          />
+        </div>
+      </div>
+
+      <div class="color">
+        <h2>hex</h2>
+        <div class="controls">
+          <button class="adjust">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"
+              />
+            </svg>
+          </button>
+          <button class="lock">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="controls-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sliders">
+          <button class="close-adjustment">&times;</button>
+          <span>hue</span>
+          <input
+            type="range"
+            class="hue-input"
+            min="0"
+            max="360"
+            step="1"
+            data-hue="4"
+            name="hue"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            class="bright-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            data-bright="4"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            class="sat-input"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            data-sat="4"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="library-panel">
+        <button class="library">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="panel-icon"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"
+            />
+          </svg>
+        </button>
+        <p>library</p>
+      </div>
+
+      <div class="generate-panel">
+        <button class="generate">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="panel-icon"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <p>generate</p>
+      </div>
+
+      <div class="save-panel">
+        <button class="generate">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="panel-icon"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M7.707 10.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V6h5a2 2 0 012 2v7a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2h5v5.586l-1.293-1.293zM9 4a1 1 0 012 0v2H9V4z"
+            />
+          </svg>
+        </button>
+        <p>save</p>
+      </div>
+    </div>
+
+    <div class="copy-container">
+      <div class="copy-popup">
+        <h3>Copied to clipboard 💪</h3>
+      </div>
+    </div>
+
+    <div class="save-container">
+      <div class="save-popup">
+        <button class="close-save">&times;</button>
+        <h3>Give a name to your pallete</h3>
+        <input type="text" maxlength="35" class="save-name" />
+        <button class="submit-save">Submit</button>
+      </div>
+    </div>
+
+    <div class="library-container">
+      <div class="library-popup">
+        <button class="close-library">&times;</button>
+        <h3>Select your pallete</h3>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.2/chroma.min.js"
+      integrity="sha512-8TVPS0EFkkmtT6yPb5K4csnSt3tjbKRrs0F8gvTNKv2OxOcwDO7+Klkz86gMVrzfqtZos5N2a+k+r9D+hlccmQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
