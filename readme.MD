@@ -1,6 +1,6 @@
 # Coolor App
 
-Hmm, I have read about Coolor Project (through Dev Eds course on Udemy).
+Hmm, I have read about Coolor Project (through [DevEds's course](https://developedbyed.com/p/the-creative-javascript-course)).
 So I try to research some thing about it :), and this project was born
 
 ## Library
